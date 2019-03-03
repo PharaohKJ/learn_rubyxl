@@ -1,5 +1,6 @@
 # coding: utf-8
-require "rubyXL"
+require 'rubyXL'
+require 'rubyXL/convenience_methods'
 
 # original from http://secret-garden.hatenablog.com/entry/2017/09/21/174348
 
