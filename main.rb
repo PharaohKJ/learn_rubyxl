@@ -14,7 +14,7 @@ end
 
 p convert_alphabet_to_col_num('XEC')
 
-return
+# return
 
 
 book = RubyXL::Parser.parse('t2.xlsx')
@@ -34,7 +34,7 @@ book.each do |sheet|
   }
 end
 
-return
+# return
 
 
 src  = "test.xlsx"
@@ -42,10 +42,6 @@ dest = "output.xlsx"
 
 # エクセルファイルの読み込み
 book = RubyXL::Parser.parse(src)
-
-
-
-
 
 # シートを取得
 sheet = book[0]
